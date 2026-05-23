@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/d37480fd-cf9d-4cb6-a164-124cf9ebd10b
+View your app in AI Studio: [https://ai.studio/apps/d37480fd-cf9d-4cb6-a164-124cf9ebd10b](https://ipl-sentinel-command-control-424370941343.asia-southeast1.run.app/)
 
 ## Run Locally
 
