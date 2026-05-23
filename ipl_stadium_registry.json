@@ -1,0 +1,208 @@
+[
+  {
+    "id": "narendra_modi",
+    "name": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "capacity": 132000,
+    "dimensions": { "width": 180, "length": 220, "height": 45 },
+    "gates": [
+      { "id": "Gate-1", "name": "Main North Gate", "x": 0, "y": 105, "z": 0, "maxFlowRate": 250, "status": "OPEN" },
+      { "id": "Gate-2", "name": "East Gate A", "x": 85, "y": 45, "z": 0, "maxFlowRate": 180, "status": "OPEN" },
+      { "id": "Gate-3", "name": "East Gate B", "x": 85, "y": -45, "z": 0, "maxFlowRate": 180, "status": "OPEN" },
+      { "id": "Gate-4", "name": "South Gate (VIP)", "x": 0, "y": -105, "z": 0, "maxFlowRate": 120, "status": "OPEN" },
+      { "id": "Gate-5", "name": "West Gate A", "x": -85, "y": -45, "z": 0, "maxFlowRate": 180, "status": "OPEN" },
+      { "id": "Gate-6", "name": "West Gate B", "x": -85, "y": 45, "z": 0, "maxFlowRate": 180, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "North Stand (Adani)", "capacity": 35000, "centerAngle": 90, "distance": 80 },
+      { "name": "East Stand", "capacity": 42000, "centerAngle": 0, "distance": 80 },
+      { "name": "South Stand (Reliance)", "capacity": 25000, "centerAngle": 270, "distance": 80 },
+      { "name": "West Stand (Club)", "capacity": 30000, "centerAngle": 180, "distance": 80 }
+    ],
+    "safetyThreatThreshold": 85
+  },
+  {
+    "id": "wankhede",
+    "name": "Wankhede Stadium",
+    "city": "Mumbai",
+    "capacity": 33100,
+    "dimensions": { "width": 140, "length": 150, "height": 30 },
+    "gates": [
+      { "id": "Gate-1", "name": "Vinoo Mankad Gate", "x": -65, "y": 20, "z": 0, "maxFlowRate": 100, "status": "OPEN" },
+      { "id": "Gate-2", "name": "Polly Umrigar Gate", "x": 0, "y": 70, "z": 0, "maxFlowRate": 120, "status": "OPEN" },
+      { "id": "Gate-3", "name": "BCCI Head Office Gate", "x": 65, "y": 20, "z": 0, "maxFlowRate": 80, "status": "OPEN" },
+      { "id": "Gate-4", "name": "Garware Stand Gate", "x": 45, "y": -55, "z": 0, "maxFlowRate": 110, "status": "OPEN" },
+      { "id": "Gate-5", "name": "East Stand Access", "x": -45, "y": -55, "z": 0, "maxFlowRate": 90, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "Sunil Gavaskar Stand", "capacity": 8500, "centerAngle": 90, "distance": 55 },
+      { "name": "Vijay Merchant Stand", "capacity": 9000, "centerAngle": 0, "distance": 55 },
+      { "name": "Garware Pavilion", "capacity": 7600, "centerAngle": 270, "distance": 55 },
+      { "name": "Sachin Tendulkar Stand", "capacity": 8000, "centerAngle": 180, "distance": 55 }
+    ],
+    "safetyThreatThreshold": 80
+  },
+  {
+    "id": "eden_gardens",
+    "name": "Eden Gardens",
+    "city": "Kolkata",
+    "capacity": 68000,
+    "dimensions": { "width": 160, "length": 170, "height": 35 },
+    "gates": [
+      { "id": "Gate-1", "name": "Club Gate North", "x": 0, "y": 80, "z": 0, "maxFlowRate": 160, "status": "OPEN" },
+      { "id": "Gate-2", "name": "Eden Gardens Station Gate", "x": 75, "y": 30, "z": 0, "maxFlowRate": 140, "status": "OPEN" },
+      { "id": "Gate-3", "name": "High Court Entrance", "x": 55, "y": -60, "z": 0, "maxFlowRate": 150, "status": "OPEN" },
+      { "id": "Gate-4", "name": "Babu Ghat Entrance", "x": -55, "y": -60, "z": 0, "maxFlowRate": 140, "status": "OPEN" },
+      { "id": "Gate-5", "name": "Maidan West Gate", "x": -75, "y": 30, "z": 0, "maxFlowRate": 150, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "Club House Stand", "capacity": 15000, "centerAngle": 90, "distance": 65 },
+      { "name": "B, C, D Stands", "capacity": 18000, "centerAngle": 0, "distance": 65 },
+      { "name": "E, F, G Stands", "capacity": 15000, "centerAngle": 270, "distance": 65 },
+      { "name": "H, J, K Stands", "capacity": 20000, "centerAngle": 180, "distance": 65 }
+    ],
+    "safetyThreatThreshold": 82
+  },
+  {
+    "id": "chinnaswamy",
+    "name": "M. Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "capacity": 40000,
+    "dimensions": { "width": 145, "length": 145, "height": 28 },
+    "gates": [
+      { "id": "Gate-1", "name": "Cubbon Park Gate A", "x": -50, "y": -50, "z": 0, "maxFlowRate": 110, "status": "OPEN" },
+      { "id": "Gate-2", "name": "Cubbon Park Gate B", "x": -70, "y": 10, "z": 0, "maxFlowRate": 110, "status": "OPEN" },
+      { "id": "Gate-3", "name": "MG Road Gate", "x": 0, "y": 70, "z": 0, "maxFlowRate": 130, "status": "OPEN" },
+      { "id": "Gate-4", "name": "Link Road Gate", "x": 70, "y": 10, "z": 0, "maxFlowRate": 120, "status": "OPEN" },
+      { "id": "Gate-5", "name": "Queens Road Access", "x": 40, "y": -60, "z": 0, "maxFlowRate": 100, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "Grand Stand North", "capacity": 12000, "centerAngle": 90, "distance": 58 },
+      { "name": "East Corporate Gallery", "capacity": 10000, "centerAngle": 0, "distance": 58 },
+      { "name": "P2 Stand", "capacity": 8000, "centerAngle": 270, "distance": 58 },
+      { "name": "West Fan Pavilion", "capacity": 10000, "centerAngle": 180, "distance": 58 }
+    ],
+    "safetyThreatThreshold": 80
+  },
+  {
+    "id": "chidambaram",
+    "name": "M. A. Chidambaram Stadium",
+    "city": "Chennai",
+    "capacity": 38200,
+    "dimensions": { "width": 140, "length": 140, "height": 32 },
+    "gates": [
+      { "id": "Gate-1", "name": "Wallajah Road Gate", "x": -68, "y": 10, "z": 0, "maxFlowRate": 100, "status": "OPEN" },
+      { "id": "Gate-2", "name": "Bells Road Entry", "x": 0, "y": 68, "z": 0, "maxFlowRate": 110, "status": "OPEN" },
+      { "id": "Gate-3", "name": "Victoria Hostel Gate", "x": 68, "y": 10, "z": 0, "maxFlowRate": 100, "status": "OPEN" },
+      { "id": "Gate-4", "name": "Marina Beach Side Gate", "x": 35, "y": -60, "z": 0, "maxFlowRate": 120, "status": "OPEN" },
+      { "id": "Gate-5", "name": "Canal-bank Gate", "x": -35, "y": -60, "z": 0, "maxFlowRate": 90, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "Anna Pavilion North", "capacity": 10000, "centerAngle": 90, "distance": 56 },
+      { "name": "MRF Pace Stand", "capacity": 9200, "centerAngle": 0, "distance": 56 },
+      { "name": "Madras Cricket Club", "capacity": 9000, "centerAngle": 270, "distance": 56 },
+      { "name": "I, J, K Stands", "capacity": 10000, "centerAngle": 180, "distance": 56 }
+    ],
+    "safetyThreatThreshold": 80
+  },
+  {
+    "id": "hpca_dharamshala",
+    "name": "HPCA Stadium",
+    "city": "Dharamshala",
+    "capacity": 23000,
+    "dimensions": { "width": 120, "length": 130, "height": 18 },
+    "gates": [
+      { "id": "Gate-1", "name": "Main Entrance East", "x": 60, "y": 0, "z": 0, "maxFlowRate": 80, "status": "OPEN" },
+      { "id": "Gate-2", "name": "South Stand Gate", "x": 0, "y": -65, "z": 0, "maxFlowRate": 70, "status": "OPEN" },
+      { "id": "Gate-3", "name": "West Gate Pavilion", "x": -60, "y": 0, "z": 0, "maxFlowRate": 80, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "North Pavilion Himalayas", "capacity": 6000, "centerAngle": 90, "distance": 45 },
+      { "name": "East Stand A/B", "capacity": 7000, "centerAngle": 0, "distance": 45 },
+      { "name": "South Pavilion Ryerson", "capacity": 5000, "centerAngle": 270, "distance": 45 },
+      { "name": "West Stand C/D", "capacity": 5000, "centerAngle": 180, "distance": 45 }
+    ],
+    "safetyThreatThreshold": 75
+  },
+  {
+    "id": " Rajiv_gandhi",
+    "name": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "capacity": 55000,
+    "dimensions": { "width": 155, "length": 160, "height": 33 },
+    "gates": [
+      { "id": "Gate-1", "name": "North Gate A", "x": 0, "y": 80, "z": 0, "maxFlowRate": 140, "status": "OPEN" },
+      { "id": "Gate-2", "name": "East Gate Uppal", "x": 78, "y": 10, "z": 0, "maxFlowRate": 130, "status": "OPEN" },
+      { "id": "Gate-3", "name": "South Gate Main", "x": 0, "y": -80, "z": 0, "maxFlowRate": 150, "status": "OPEN" },
+      { "id": "Gate-4", "name": "West Gate Habshiguda", "x": -78, "y": 10, "z": 0, "maxFlowRate": 130, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "North Pavilion", "capacity": 14000, "centerAngle": 90, "distance": 62 },
+      { "name": "East Terrace", "capacity": 15000, "centerAngle": 0, "distance": 62 },
+      { "name": "South Pavilion VIP", "capacity": 12000, "centerAngle": 270, "distance": 62 },
+      { "name": "West Terrace", "capacity": 14000, "centerAngle": 180, "distance": 62 }
+    ],
+    "safetyThreatThreshold": 82
+  },
+  {
+    "id": "ekana_sports_city",
+    "name": "BRSABV Ekana Cricket Stadium",
+    "city": "Lucknow",
+    "capacity": 50000,
+    "dimensions": { "width": 150, "length": 155, "height": 31 },
+    "gates": [
+      { "id": "Gate-1", "name": "North Expressway Entry", "x": 0, "y": 78, "z": 0, "maxFlowRate": 140, "status": "OPEN" },
+      { "id": "Gate-2", "name": "East Lake Drive-in", "x": 75, "y": 0, "z": 0, "maxFlowRate": 120, "status": "OPEN" },
+      { "id": "Gate-3", "name": "South Plaza Gate", "x": 0, "y": -78, "z": 0, "maxFlowRate": 140, "status": "OPEN" },
+      { "id": "Gate-4", "name": "West Service Road Gate", "x": -75, "y": 0, "z": 0, "maxFlowRate": 120, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "North Pavilion G-Block", "capacity": 12000, "centerAngle": 90, "distance": 60 },
+      { "name": "East Lower/Upper", "capacity": 14000, "centerAngle": 0, "distance": 60 },
+      { "name": "South Pavilion VIP Box", "capacity": 10000, "centerAngle": 270, "distance": 60 },
+      { "name": "West Lower/Upper", "capacity": 14000, "centerAngle": 180, "distance": 60 }
+    ],
+    "safetyThreatThreshold": 80
+  },
+  {
+    "id": "pca_bindra",
+    "name": "IS Bindra Stadium",
+    "city": "Mohali",
+    "capacity": 26950,
+    "dimensions": { "width": 135, "length": 145, "height": 22 },
+    "gates": [
+      { "id": "Gate-1", "name": "North Gate A Sector 63", "x": -30, "y": 72, "z": 0, "maxFlowRate": 85, "status": "OPEN" },
+      { "id": "Gate-2", "name": "East VIP Gate", "x": 67, "y": 0, "z": 0, "maxFlowRate": 90, "status": "OPEN" },
+      { "id": "Gate-3", "name": "South Pavilion Gate", "x": 0, "y": -72, "z": 0, "maxFlowRate": 80, "status": "OPEN" },
+      { "id": "Gate-4", "name": "West Gate Sector 63", "x": -67, "y": 0, "z": 0, "maxFlowRate": 85, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "North Terrace Access", "capacity": 6500, "centerAngle": 90, "distance": 53 },
+      { "name": "Yuvraj Singh Stand East", "capacity": 7500, "centerAngle": 0, "distance": 53 },
+      { "name": "Harbhajan Singh Stand West", "capacity": 6950, "centerAngle": 180, "distance": 53 },
+      { "name": "South Pavilion Main Box", "capacity": 6000, "centerAngle": 270, "distance": 53 }
+    ],
+    "safetyThreatThreshold": 80
+  },
+  {
+    "id": "arun_jaitley",
+    "name": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "capacity": 41840,
+    "dimensions": { "width": 135, "length": 140, "height": 29 },
+    "gates": [
+      { "id": "Gate-1", "name": "Bahadur Shah Zafar Gate", "x": -65, "y": 15, "z": 0, "maxFlowRate": 110, "status": "OPEN" },
+      { "id": "Gate-2", "name": "Feroz Shah Kotla Gate", "x": 0, "y": 70, "z": 0, "maxFlowRate": 120, "status": "OPEN" },
+      { "id": "Gate-3", "name": "Ambedkar Stadium Side", "x": 65, "y": 15, "z": 0, "maxFlowRate": 100, "status": "OPEN" },
+      { "id": "Gate-4", "name": "Ring Road Side Gate", "x": 30, "y": -68, "z": 0, "maxFlowRate": 110, "status": "OPEN" },
+      { "id": "Gate-5", "name": "East Enclosure Entry", "x": -30, "y": -68, "z": 0, "maxFlowRate": 90, "status": "OPEN" }
+    ],
+    "stands": [
+      { "name": "Virender Sehwag Gate Stand", "capacity": 10500, "centerAngle": 90, "distance": 54 },
+      { "name": "East Stand Lower/Upper", "capacity": 11340, "centerAngle": 0, "distance": 54 },
+      { "name": "South Pavilion VIP", "capacity": 10000, "centerAngle": 270, "distance": 54 },
+      { "name": "West Stand Board Box", "capacity": 10000, "centerAngle": 180, "distance": 54 }
+    ],
+    "safetyThreatThreshold": 80
+  }
+]
